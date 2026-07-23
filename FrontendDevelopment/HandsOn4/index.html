@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Hands On 4</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>Student Portal</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Grades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Hero -->
+        <section id="hero">
+            <h1>Welcome to Student Portal</h1>
+
+            <p>
+                Access your courses, monitor your progress,
+                and explore new learning opportunities.
+            </p>
+
+            <button>Explore Courses</button>
+        </section>
+
+        <!-- Courses -->
+        <section id="courses">
+
+            <h2>Available Courses</h2>
+
+            <!-- Loading message -->
+            <p id="loading">Loading courses...</p>
+
+            <!-- JavaScript renders courses here -->
+            <div class="course-grid"></div>
+
+        </section>
+
+        <hr>
+
+        <!-- Notifications -->
+        <section id="notifications-section">
+
+            <h2>Notifications</h2>
+
+            <!-- Loading Spinner -->
+            <div id="spinner">Loading posts...</div>
+
+            <!-- API Posts -->
+            <section id="notifications">
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Student Portal. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Axios CDN (Step 55) -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- JavaScript -->
+    <script type="module" src="app.js"></script>
+
+</body>
+</html>
