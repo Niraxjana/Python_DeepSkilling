@@ -1,0 +1,10 @@
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.course-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
